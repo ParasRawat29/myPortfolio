@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/github.io/myPortfolio/static/css/main.5ea7a7f7.chunk.css",
+    "main.js": "/github.io/myPortfolio/static/js/main.3cbbdf9f.chunk.js",
+    "main.js.map": "/github.io/myPortfolio/static/js/main.3cbbdf9f.chunk.js.map",
+    "runtime-main.js": "/github.io/myPortfolio/static/js/runtime-main.551638d8.js",
+    "runtime-main.js.map": "/github.io/myPortfolio/static/js/runtime-main.551638d8.js.map",
+    "static/js/2.4cbd7fc7.chunk.js": "/github.io/myPortfolio/static/js/2.4cbd7fc7.chunk.js",
+    "static/js/2.4cbd7fc7.chunk.js.map": "/github.io/myPortfolio/static/js/2.4cbd7fc7.chunk.js.map",
+    "static/js/3.5dfa75e1.chunk.js": "/github.io/myPortfolio/static/js/3.5dfa75e1.chunk.js",
+    "static/js/3.5dfa75e1.chunk.js.map": "/github.io/myPortfolio/static/js/3.5dfa75e1.chunk.js.map",
+    "index.html": "/github.io/myPortfolio/index.html",
+    "static/css/main.5ea7a7f7.chunk.css.map": "/github.io/myPortfolio/static/css/main.5ea7a7f7.chunk.css.map",
+    "static/js/2.4cbd7fc7.chunk.js.LICENSE.txt": "/github.io/myPortfolio/static/js/2.4cbd7fc7.chunk.js.LICENSE.txt",
+    "static/media/boxOffice.c6bb580e.png": "/github.io/myPortfolio/static/media/boxOffice.c6bb580e.png",
+    "static/media/canvasShooingGame.37d2868c.png": "/github.io/myPortfolio/static/media/canvasShooingGame.37d2868c.png",
+    "static/media/gallerina.f44f3804.png": "/github.io/myPortfolio/static/media/gallerina.f44f3804.png",
+    "static/media/paras dp.2d4003f9.jpeg": "/github.io/myPortfolio/static/media/paras dp.2d4003f9.jpeg",
+    "static/media/pomoTime.16534400.png": "/github.io/myPortfolio/static/media/pomoTime.16534400.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.551638d8.js",
+    "static/js/2.4cbd7fc7.chunk.js",
+    "static/css/main.5ea7a7f7.chunk.css",
+    "static/js/main.3cbbdf9f.chunk.js"
+  ]
+}
