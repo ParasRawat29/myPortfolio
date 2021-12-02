@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import pomoTime from "../../images/pomoTime.png";
 import gallerina from "../../images/gallerina.png";
@@ -47,6 +47,30 @@ const PROJECTS = [
 ];
 
 export default function Project() {
+  useEffect(() => {
+    window.addEventListener("scroll", checkBoxes);
+    return () => {
+      window.removeEventListener("scroll", checkBoxes);
+    };
+  }, []);
+
+  function checkBoxes() {
+    const triggerPoint = (window.innerHeight / 5) * 4;
+    const projectImgs = document.querySelectorAll(".projectImg");
+    const projectDescs = document.querySelectorAll(".projectDesc");
+
+    projectImgs.forEach((projectImg) => {
+      const boxTop = projectImg.getBoundingClientRect().top;
+      if (boxTop < triggerPoint) projectImg.classList.add("appear");
+      else projectImg.classList.remove("appear");
+    });
+
+    projectDescs.forEach((projectDesc) => {
+      const boxTop = projectDesc.getBoundingClientRect().top;
+      if (boxTop < triggerPoint) projectDesc.classList.add("appear");
+      else projectDesc.classList.remove("appear");
+    });
+  }
   return (
     <>
       <div id="projectContainer">

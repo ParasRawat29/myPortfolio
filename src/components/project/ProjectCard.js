@@ -11,7 +11,7 @@ function ProjectCard({
 }) {
   return (
     <section className="projectCard">
-      <img src={img} alt="project image" className="projectImg"></img>
+      <img src={img} alt="project image" className="projectImg appear"></img>
       <div className="projectDesc">
         <h1 className="title">{title}</h1>
         <h3 className="toolsUsed">{tools}</h3>

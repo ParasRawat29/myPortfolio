@@ -23,10 +23,12 @@ function App() {
       ) : (
         <>
           <Navbar />
-          <Home />
-          <Project />
-          <About />
-          <Skills />
+          <div className="main">
+            <Home />
+            <Project />
+            <About />
+            <Skills />
+          </div>
         </>
       )}
     </div>
