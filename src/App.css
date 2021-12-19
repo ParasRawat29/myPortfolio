@@ -87,6 +87,11 @@ ul {
   word-spacing: 1rem;
   padding: 1rem;
   width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.appear {
+  opacity: 1;
 }
 .intro h2 {
   color: #afafaf;
@@ -144,6 +149,8 @@ ul {
   height: 150px;
   justify-content: space-around;
   margin: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 .socialIcons img {
   margin: 0 1rem;
