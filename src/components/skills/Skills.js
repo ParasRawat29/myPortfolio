@@ -5,11 +5,16 @@ import cpp from "../../images/cpp.png";
 import css3 from "../../images/css3.png";
 import reactJs from "../../images/reactJS.png";
 import SkillCard from "./SkillCard";
+import redux from "../../images/redux.png";
 
 const skills = [
   {
     name: "ReactJS",
     img: reactJs,
+  },
+  {
+    name: "Redux",
+    img: redux,
   },
   {
     name: "javascript",

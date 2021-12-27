@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
-import twitter from "../images/twitter.png";
+import leetcode from "../images/leetcode.png";
+import codepen from "../images/codepen.png";
 
 export default function Home() {
   const [appear, setAppear] = useState(false);
@@ -41,8 +42,21 @@ export default function Home() {
         </button>
 
         <button>
-          <a href="https://twitter.com/Paras_Rawat_29" target="_blank">
-            <img src={twitter} alt="twitter icon" width="60" height="60" />
+          <a
+            href="https://codepen.io/ParasRawat"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={codepen} alt="codepen icon" width="60" height="60" />
+          </a>
+        </button>
+        <button>
+          <a
+            href="https://leetcode.com/paras29/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={leetcode} alt="leetcode icon" width="60" height="60" />
           </a>
         </button>
       </div>
