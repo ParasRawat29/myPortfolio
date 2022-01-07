@@ -70,6 +70,7 @@ ul {
   width: 100%;
   padding: 1rem;
   background-color: var(--darkthemeBgColor);
+  position: relative;
 }
 .anchor {
   height: 50px;
@@ -89,6 +90,7 @@ ul {
   width: 100%;
   opacity: 0;
   transition: opacity 1s ease-in;
+  z-index: 10;
 }
 .appear {
   opacity: 1;
@@ -150,6 +152,7 @@ ul {
   justify-content: space-around;
   margin: auto;
   opacity: 0;
+  z-index: 10;
   transition: opacity 0.5s ease-in;
 }
 .socialIcons img {
@@ -166,10 +169,23 @@ ul {
   outline: none;
   border: none;
   cursor: pointer;
+  z-index: 10;
 }
 .socialIcons button a :hover {
   border-bottom: 3px solid cyan;
   transform: translateY(-10px);
+}
+
+.animationImg {
+  position: absolute;
+  width: 700px;
+  aspect-ratio: 1;
+  top: -10%;
+  right: -10%;
+  opacity: 0.2;
+  z-index: 0;
+  transition: all 9s ease;
+  /* animation: floatAnimation 8s infinite 0s alternate-reverse; */
 }
 
 #projectContainer {

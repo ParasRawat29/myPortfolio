@@ -3,7 +3,7 @@ import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
 import leetcode from "../images/leetcode.png";
 import codepen from "../images/codepen.png";
-
+import anim from "../images/websiteGif.png";
 export default function Home() {
   const [appear, setAppear] = useState(false);
 
@@ -21,6 +21,21 @@ export default function Home() {
         <h1 className="name">Paras Rawat</h1>
         <h1 className="introInfo">Frontend Developer | UI/UX Developer</h1>
       </div>
+
+      <img
+        src={anim}
+        alt="backgroundImage"
+        className="animationImg"
+        style={{
+          transform: appear === true ? "translate(0,0)" : "translate(80%,50%)",
+        }}
+      />
+      {/* <div
+        className="animationImg"
+        style={{
+          transform: appear === true ? "translate(0,0)" : "translate(80%,50%)",
+        }}
+      /> */}
       <div className="socialIcons" style={{ opacity: appear === true ? 1 : 0 }}>
         <button>
           <a
