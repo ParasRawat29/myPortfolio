@@ -17,7 +17,6 @@
   box-sizing: border-box;
   padding: 0;
   text-decoration: none;
-  color: inherit;
 }
 
 .App {
@@ -53,32 +52,33 @@ ul {
   justify-content: center;
 }
 .navlinksList li {
-  padding: 0px 17px;
   display: inline;
   margin: 5px 20px;
   cursor: pointer;
   font-family: Righteous;
-  border-radius: 1.4rem;
-  color: var(--darkthemeNavColor);
+  border-radius: 1.2rem;
   font-size: 1.7rem;
+  color: #fff;
 }
-.navlight li {
-  color: var(--lightthemeNavColor);
+li a {
+  color: inherit;
 }
+.navlinksList li.active a {
+  padding: 0px 17px;
+  background-color: rgb(196, 228, 56);
+  color: black;
+  border-radius: inherit;
+}
+
 .home {
   height: 92vh;
   width: 100%;
-  padding: 1rem;
   background-color: var(--darkthemeBgColor);
   position: relative;
 }
 .anchor {
   height: 50px;
   visibility: hidden;
-}
-.navlinksList .active {
-  background-color: rgb(196, 228, 56);
-  color: black;
 }
 
 .intro {
@@ -189,7 +189,8 @@ ul {
 }
 
 #projectContainer {
-  background-color: var(--darkthemeBgColor);
+  /* background-color: var(--darkthemeBgColor); */
+  background-color: #1c1b1b;
   text-align: center;
   padding: 10px;
 }
@@ -202,7 +203,7 @@ ul {
 .skillshead {
   font-family: Righteous;
   color: #e3dada;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 400;
   text-decoration: underline;
   margin-bottom: 20px;
@@ -234,12 +235,13 @@ ul {
 }
 .projectCard .projectDesc {
   width: 600px;
-  background-color: rgb(36, 35, 35);
+  background-color: rgb(34 33 33);
   margin-left: -150px;
   padding-left: 150px;
   min-height: 280px;
   border-radius: 20px;
-  box-shadow: 10px 10px 10px rgb(255 255 255 / 10%);
+  /* box-shadow: 10px 10px 10px rgb(255 255 255 / 10%); */
+  box-shadow: 10px 10px 10px #000000;
   transform: translateX(200%);
   transition: all 0.4s ease;
 }
@@ -291,9 +293,9 @@ ul {
   background-color: var(--darkthemeBgColor);
   padding: 10px;
 }
-.AboutHeading {
+.AboutHeading,
+.abouthead {
   font-family: Righteous;
-  font-size: 3.3rem;
   text-align: center;
   color: #e3dada;
   font-weight: 400;

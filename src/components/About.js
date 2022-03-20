@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div id="aboutContainer">
       <div className="anchor"></div>
-      <div className="AboutHeading">About Me</div>
+      <div className="abouthead">About Me</div>
       <div className="innerAboutContainer">
         <div className="aboutImg">
           <img src={parasPhoto} alt="" />
